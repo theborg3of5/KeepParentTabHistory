@@ -1,0 +1,13 @@
+﻿{
+  "name": "Keep Parent Tab History",
+  "version": "1.0",
+  "description": "A Google Chrome extension to have child tabs retain their parents' histories.",
+  "manifest_version": 2,
+  "permissions": [ "tabs", "webNavigation" ],
+  "icons": {
+      "128": "icon128.png"
+   },
+  "background": {
+	"page": "background.html"
+  }
+}
